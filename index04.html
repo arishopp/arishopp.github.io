@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agendamento de Banho e Tosa</title>
+    <link rel="stylesheet" href="style04.css">
+</head>
+<body>
+    
+
+    <div class="container">
+        <h1>Agende o Banho e Tosa do Seu Pet</h1>
+        
+        <form action="/agendar" method="POST" >
+            <label for="nome">Nome do Pet:</label>
+            <input type="text" id="nome" name="nome" required>
+            
+            <label for="dono">Nome do Dono:</label>
+            <input type="text" id="dono" name="dono" required>
+
+            <label for="telefone">Telefone para Contato:</label>
+            <input type="tel" id="telefone" name="telefone" required>
+
+            <label for="data">Data do Agendamento:</label>
+            <input type="date" id="data" name="data" required>
+
+            <label for="hora">Horário:</label>
+            <input type="time" id="hora" name="hora" required>
+
+        </form>
+        <a href="index.html"> <button id="btnAgendar">Agendar</button> </a>
+        <a href="index.html"><button id="btnVoltarInicio">Voltar</button></a>
+    </div>
+</body>
+</html>

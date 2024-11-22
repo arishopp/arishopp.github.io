@@ -1,0 +1,137 @@
+
+body{
+    background-color: #468262;
+    color: rgb(255, 255, 255);
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #468262;
+    color: white;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between; 
+    align-items: center;
+    /* justify-content: right; */
+}
+#title{
+    flex-direction: column;
+    line-height: 10px;
+}
+li{
+    display: inline-block;
+    margin: 20px;
+}
+
+a{
+    color: white;
+}
+
+a:hover{
+    transition: 0.3s all;
+}
+
+#faleconosco-btn{
+    border: 2px solid rgb(238, 234, 241);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+#faleconosco-btn:hover{
+    background-color: rgb(239, 237, 240);
+    color: rgb(0, 0, 0);
+}
+
+#agenda-btn{
+    border: 2px solid rgb(238, 234, 241);
+    padding: 10px;
+    border-radius: 20px;
+}
+#agenda-btn:hover{
+    background-color: rgb(239, 237, 240);
+    color: rgb(0, 0, 0);  
+}
+
+#inicio-btn{
+    border: 2px solid rgb(238, 234, 241);
+    padding: 10px;
+    border-radius: 20px;
+}
+#inicio-btn:hover{
+    background-color: rgb(239, 237, 240);
+    color: rgb(0, 0, 0);
+}
+#racoes-btn{
+    border: 2px solid rgb(238, 234, 241);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+#racoes-btn:hover{
+    background-color: rgb(239, 237, 240);
+    color: rgb(0, 0, 0);
+}
+
+
+
+#acessorio-btn{
+    border: 2px solid rgb(238, 234, 241);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+#acessorio-btn:hover{
+    background-color: rgb(239, 237, 240);
+    color: rgb(0, 0, 0);
+}
+
+h1{
+    font-weight: 200px;
+    font-size: 80px;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+h2{
+    font-size: 56px;
+    font-family: poppinsmedium;
+}
+
+span{
+   color: rgb(25, 82, 21);
+}
+
+p{
+    line-height: 20px;
+    max-width: 500px;
+}

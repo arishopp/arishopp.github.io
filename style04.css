@@ -1,0 +1,90 @@
+/* style.css */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+}
+
+body { 
+    background: url(fofinhas\ e\ fofinhos.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 8px;
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+form label {
+    
+    font-weight: bold;
+    margin: 10px 0 5px;
+}
+
+form input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    border: 1px solid #ffffff;
+}
+
+button {
+    background-color: #468262;
+    color: #ffffff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #468262;
+}
+
+div.container{
+    float: right;
+}
+#btnVoltarInicio{
+    background-color: #468262;
+    margin-top: 2px;
+}
+#btnVoltarInicio:hover{
+    background-color: #29c194;
+    box-shadow: 2px 2px 2px rgb(255, 255, 255);
+    color: #ffffff;
+    cursor: pointer;
+    transition: 0.2s;
+}
+#btnAgendar{
+    background-color: #468262;
+    margin-top: 2px;
+}
+#btnAgendar{
+    background-color: #468262;
+    box-shadow: 2px 2px 2px rgb(255, 252, 252);
+    color: rgb(249, 238, 238);
+    cursor: pointer;
+    transition: 0.2s;
+
+}
+
+
+
+
+
